@@ -1,6 +1,6 @@
 # DartBlog
-Blog for learning Dart language.
-Focus on the difference to Java.
+Dart学习笔记，注重于该语言比较独特的地方。
+
 
 
 ## 格式化输出
@@ -96,7 +96,8 @@ person1.values.toList();  //所有值转换成List
 ```
 
 
-遍历集合forEach
+遍历集合 forEach方法
+forEach()方法内，是一个匿名方法，这个匿名方法传入了value作为参数。
 ```
 list.forEach(
 (value){
@@ -106,8 +107,11 @@ list.forEach(
 ```
 
 
-遍历集合map
+遍历集合 map方法
+map()方法内，是一个匿名方法，这个匿名方法传入了value作为参数，并将返回值一系列值打包成Map。
+```
 
+```
 
 
 
