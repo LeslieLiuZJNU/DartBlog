@@ -1,40 +1,24 @@
 # DartBlog
 Dart学习笔记，注重于该语言比较独特的地方。
 
-
-
-
-
 ## 格式化输出
-
-
 
 $+变量名
 ```
 print("$name有$num元钱。");
 ```
 
-
-
-
-
 ## 变量类型
-
-
 
 自适应类型
 ```
 Var a;
 ```
 
-
-
 类型的判断
 ```
 if(a is int)
 ```
-
-
 
 类型的转换
 数字与字符串的转换
@@ -54,10 +38,6 @@ try{//空字符串转换为0
 }
 ```
 
-
-
-
-
 ## 运算符
 
 非空则赋值
@@ -65,20 +45,12 @@ try{//空字符串转换为0
 b??=5;
 ```
 
-
-
-
-
 ## 集合的操作（List、Set、Map）
-
-
 
 list转换为字符串，以“, ”隔开。
 ```
 string = list.join(', ')
 ```
-
-
 
 string转换为list，识别“, ”作为分隔符。
 ```
@@ -91,8 +63,6 @@ List批量赋值成员，[begin, end)。
 ```
 list.fillRange(begin,end,Object);
 ```
-
-
 
 Map（映射）两种定义方式。
 ```
@@ -107,15 +77,11 @@ person2.add("age":20);
 person2.remove("age");
 ```
 
-
-
 Map转换为List。
 ```
 person1.keys.toList(); //所有关键字转换成List
 person1.values.toList();  //所有值转换成List
 ```
-
-
 
 遍历集合 forEach方法
 
@@ -127,8 +93,6 @@ list.forEach(
 }
 );
 ```
-
-
 
 遍历集合 map方法
 
